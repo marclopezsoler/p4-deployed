@@ -4,7 +4,7 @@
   "type": "module",
   "main": "src/server.ts",
   "scripts": {
-    "dev": "bun --hot src/server.ts",
+    "dev": "bun src/server.ts",
     "start": "bun src/server.ts"
   },
   "devDependencies": {
