@@ -28,3 +28,5 @@ const { PORT } = process.env;
 app.listen(PORT, () => {
   console.log(`My api listens on: http://localhost:${PORT}`);
 });
+
+module.exports = app;
